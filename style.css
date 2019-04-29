@@ -1,14 +1,9 @@
 .jumbotron{
   height: 100vh;
 }
-.jum1{
-  background-color: darkgray;
-}
-h1{
+h2{
   color: #fff;
-  -webkit-text-stroke-width: 6px;
-  -webkit-text-stroke-color: black;
 }
-.carousel{
-  
+.site-header {
+  background-color: #333;
 }
