@@ -10,3 +10,15 @@ h2{
 .topeiei{
   background-image: url("789.jpg")
 }
+body{
+  background-color: #e7e7e7;
+}
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
