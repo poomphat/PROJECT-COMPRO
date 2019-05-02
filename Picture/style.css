@@ -1,0 +1,27 @@
+.jumbotron{
+  height: 100vh;
+  background-color: #e7e7e7;
+}
+h2{
+  color: #fff;
+}
+.site-header {
+  background-color: #333;
+}
+.topeiei{
+  background-image: url("789.jpg");
+  background-size: 100% 100%; 
+  
+}
+body{
+  background-color: #e7e7e7;
+}
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
