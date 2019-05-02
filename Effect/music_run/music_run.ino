@@ -1,8 +1,8 @@
 #include "FastLED.h"
 
 #define NUM_LEDS 300       
-#define updateLEDS 8       
-#define COLOR_SHIFT 180000 
+#define updateLEDS 2       
+#define COLOR_SHIFT 180000
 CRGB leds[NUM_LEDS];        
 
 
@@ -36,7 +36,7 @@ void setup() {
 }
 
 void loop() { 
-  unsigned long time = millis();
+  unsigned long time = 100;
 
  
   if(time / (double)setTime >= 1) {
@@ -73,7 +73,7 @@ void loop() {
 
 
 double convBrightness(int b) {
-  double c = b / 614.0000;
+  double c = b / 800;
   if( c < 0.2 ) {
     c = 0;
   }

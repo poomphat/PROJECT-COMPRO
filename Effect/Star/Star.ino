@@ -27,6 +27,6 @@ void confetti()
 {
   
   fadeToBlackBy( leds, NUM_LEDS, 10);
-  int pos = random16(NUM_LEDS);
+  int pos = random(NUM_LEDS);
   leds[pos] = CHSV(analogRead(A1)/4,255,255);
 }
